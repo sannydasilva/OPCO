@@ -1,11 +1,11 @@
 import React from "react";
 
-const afdas = () => {
+const home = () => {
   return (
     <div>
-      <h1>afdas</h1>
+      <h1>HOME</h1>
     </div>
   );
 };
 
-export default afdas;
+export default home;
