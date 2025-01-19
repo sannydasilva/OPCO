@@ -92,3 +92,7 @@ export default {
 dans App.jsx, insérer par exemple un bouton :
 
 `<button className="btn btn-primary">NEW</button>`
+
+# Ajout du router react
+
+`yarn add react-router-dom`
