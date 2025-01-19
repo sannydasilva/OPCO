@@ -24,7 +24,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/OPCO" element={<Home />}></Route>
           <Route path="/afdas" element={<Afdas />}></Route>
           <Route path="/atlas" element={<Atlas />}></Route>
           <Route path="/akto" element={<Akto />}></Route>
