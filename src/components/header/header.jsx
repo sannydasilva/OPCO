@@ -20,7 +20,7 @@ const header = () => {
             className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/OPCO">Home</NavLink>
             </li>
             <li>
               <NavLink to="/afdas">Afdas</NavLink>
