@@ -1,35 +1,3 @@
-// import { useState } from "react";
-// import logo from "../assets/logo_upec_cfa.png";
-// import "./App.css";
-
-// function App() {
-// const [count, setCount] = useState(0);
-
-//   return (
-//     <>
-//       <div className="hero bg-base-200 min-h-screen">
-//         <div className="hero-content flex-col lg:flex-row">
-//           <a href="https://cfa.u-pec.fr/" target="_blank">
-//             <img src={logo} className="logo" alt="Vite logo" />
-//           </a>
-
-//           <div>
-//             <h1 className="text-5xl font-bold">Informations OPCO</h1>
-//             <p className="py-6">
-//               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-//               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-//               et a id nisi.
-//             </p>
-//             <button className="btn btn-primary">Get Started</button>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default App;
-
 import Afdas from "../pages/afdas/afdas";
 import Akto from "../pages/akto/akto";
 import Atlas from "../pages/atlas/atlas";
@@ -48,7 +16,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import Header from "../components/header/header";
-// import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/footer";
 
 function App() {
   return (
@@ -69,7 +37,7 @@ function App() {
           <Route path="/opcommerce" element={<Opcommerce />}></Route>
           <Route path="/uniformation" element={<Uniformation />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );

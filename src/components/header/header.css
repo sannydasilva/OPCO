@@ -1,0 +1,10 @@
+.header {
+  background-color: #4a5f70;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-1 {
+  margin-top: 50px;
+  margin-right: 150px;
+}
