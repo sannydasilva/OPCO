@@ -8,7 +8,7 @@ const header = () => {
     <>
       <div className="header">
         <a href="https://cfa.u-pec.fr/" target="_blank">
-          <img src={logo} className="logo" alt="Vite logo" />
+          <img src={logo} className="logo" alt="Upec logo" />
         </a>
 
         <div className="dropdown">
