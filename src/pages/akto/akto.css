@@ -1,9 +1,15 @@
-.shadow-xl {
+.shadow-xl-akto {
   /* margin-top: 150px; */
   width: 80%;
   margin: 150px auto;
+  background-color: #1d4851;
 }
 
 /* .card-body {
   color: black;
 } */
+
+.logoakto {
+  margin-top: 100px;
+  margin-left: 15px;
+}

@@ -5,12 +5,17 @@ import "./constructys.css";
 const constructys = () => {
   return (
     <div>
-      <div className="card card-side bg-neutral shadow-xl w-1/2">
+      <div className="card card-side bg-neutral shadow-xl-constructys w-1/2">
         <figure>
-          <img src={constructyslogo} className="logo" alt="logo constructys" />
+          <a href="https://www.constructys.fr/" target="_blank">
+            <img
+              src={constructyslogo}
+              className="logoconstructys"
+              alt="logo constructys"
+            />
+          </a>
         </figure>
         <div className="card-body">
-          <h2 className="card-title">CONSTRUCTYS</h2>
           <p>Téléphone : </p>
           <p>Mail :</p>
           <p>Prise en charge : </p>
@@ -22,7 +27,7 @@ const constructys = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-primary">Contacts</button>
+              <button className="btn btn-neutral">Contacts</button>
             </a>
           </div>
         </div>

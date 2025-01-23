@@ -1,5 +1,11 @@
-.shadow-xl {
+.shadow-xl-constructys {
   /* margin-top: 150px; */
   width: 80%;
   margin: 150px auto;
+  background-color: #c45b2d;
+}
+
+.logoconstructys {
+  margin-top: 50px;
+  margin-left: 15px;
 }
