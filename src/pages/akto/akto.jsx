@@ -21,7 +21,29 @@ const akto = () => {
         <p>Avenant : à déposer sur plateforme + mail gestionnaire Akto</p>
         <p>Rupture : à déposer sur plateforme + mail gestionnaire Akto</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-neutral">TEST</button>
+          <a
+            href="/OPCO/akto-tuto-contrat-app.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">
+              Tuto contrat apprentissage
+            </button>
+          </a>
+          <a
+            href="/OPCO/akto-tuto-depot-facture.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">Tuto dépôt factures</button>
+          </a>
+          <a
+            href="/OPCO/akto-webinaire-financement.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">Support financement</button>
+          </a>
         </div>
       </div>
     </div>
