@@ -8,3 +8,17 @@
   margin-top: 50px;
   margin-right: 150px;
 }
+
+.svghome {
+  margin-top: 60px;
+}
+
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: #e42535;
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247);
+}

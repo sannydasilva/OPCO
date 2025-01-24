@@ -12,20 +12,41 @@ const afdas = () => {
           </a>
         </figure>
         <div className="card-body">
-          <p>Téléphone : </p>
+          <p>Téléphone : 01 44 78 38 45</p>
           <p>Mail :</p>
-          <p>Prise en charge : </p>
-          <p>Avenant : </p>
-          <p>Rupture : </p>
+          <p>Prise en charge : réception mail avec échéancier </p>
+          <p>
+            Avenant : sur le site : Mes demandes de contact puis Nouvelle
+            demande
+          </p>
+          <p>
+            Rupture : sur le site : Mes demandes de contact puis Nouvelle demand
+          </p>
           <div className="card-actions justify-end">
             <a
               href="/OPCO/afdas-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-neutral">Guide OPCO</button>
+              <button className="btn btn-neutral">Guide utilisateur</button>
+            </a>
+            <a
+              href="/OPCO/afdas-guide-factu.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-neutral">Guide facturation</button>
             </a>
           </div>
+          {/* <div className="card-actions justify-end">
+            <a
+              href="/OPCO/afdas-guide-factu.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-neutral">Guide facturation</button>
+            </a>
+          </div> */}
         </div>
       </div>
     </div>
