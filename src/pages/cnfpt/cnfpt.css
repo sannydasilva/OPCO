@@ -1,0 +1,34 @@
+.min-h-screen {
+  min-height: 80vh;
+}
+/* cnfpt .bg-base-100 {
+  --tw-bg-opacity: 1;
+  background-color: oklch(0.29 0.19 265.37);
+} */
+
+.w-96 {
+  width: 36rem;
+}
+
+.cnfpt-bg-base-100 {
+  --tw-bg-opacity: 1;
+  background-color: oklch(0.29 0.19 265.37);
+}
+
+.cnfptcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card2cnfpt {
+  display: flex;
+  /* height: 80vh; */
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-cnfpt {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}

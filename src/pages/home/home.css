@@ -4,8 +4,15 @@
   align-items: center;
   height: 70vh; /* Prend toute la hauteur de la fenêtre */
   margin: auto;
+  justify-content: space-around;
 }
 
 .card-body {
   color: white;
+}
+.card-body-home {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  width: 30vw;
 }

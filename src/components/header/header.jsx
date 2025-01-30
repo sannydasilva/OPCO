@@ -73,6 +73,9 @@ const header = () => {
             <li>
               <NavLink to="/uniformation">Uniformation</NavLink>
             </li>
+            <li>
+              <NavLink to="/cnfpt">CNFPT</NavLink>
+            </li>
           </ul>
         </div>
       </div>

@@ -18,6 +18,25 @@ const Home = () => {
           <p>Code organisme : 94287</p>
         </div>
       </div>
+      <div className="card-body-home">
+        {/* <p>Téléphone : </p>
+            <p>Mail :</p>
+            <p>Prise en charge : </p>
+            <p>Avenant : </p>
+            <p>Rupture : </p> */}
+        <div className="card-actions">
+          <button className="btn btn-neutral">Précis</button>
+        </div>
+        <div className="card-actions">
+          <button className="btn btn-neutral">RIB CFA</button>
+        </div>
+        <div className="card-actions">
+          <button className="btn btn-neutral">Vademecum OPCO</button>
+        </div>
+        <div className="card-actions">
+          <button className="btn btn-neutral">TEST</button>
+        </div>
+      </div>
     </div>
   );
 };

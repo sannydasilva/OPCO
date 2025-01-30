@@ -10,6 +10,7 @@ import Opcosante from "../pages/opco_sante/opcosante";
 import Opcommerce from "../pages/opcommerce/opcommerce";
 import Uniformation from "../pages/uniformation/uniformation";
 import Home from "../pages/home/home";
+import Cnfpt from "../pages/cnfpt/cnfpt";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/opcosante" element={<Opcosante />}></Route>
           <Route path="/opcommerce" element={<Opcommerce />}></Route>
           <Route path="/uniformation" element={<Uniformation />}></Route>
+          <Route path="/cnfpt" element={<Cnfpt />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
