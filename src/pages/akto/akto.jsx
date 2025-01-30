@@ -17,7 +17,13 @@ const akto = () => {
           Mail : gestionnaire en charge du portefeuille : Virginie Chevalier :
           virginie.chevalier@akto.fr
         </p>
-        <p>Prise en charge : à récuperer sur plateforme</p>
+        <p>
+          <strong>
+            <u>Prise en charge</u>
+          </strong>{" "}
+          : par téléphone ou à récupérer sur plateforme
+        </p>
+
         <p>Avenant : à déposer sur plateforme + mail gestionnaire Akto</p>
         <p>Rupture : à déposer sur plateforme + mail gestionnaire Akto</p>
         <div className="card-actions justify-end">

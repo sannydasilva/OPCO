@@ -10,8 +10,8 @@ const Home = () => {
       >
         <div className="card-body">
           <h1 className="card-title">Informations CFA</h1>
-          <p>Université Paris Est Créteil Val de Marne</p>
-          <p>Adresse : 61, avenue Général de Gaulle 94010 CRETEIL</p>
+          <h2>Université Paris Est Créteil Val de Marne</h2>
+          <h2>Adresse : 61, avenue Général de Gaulle 94010 CRETEIL</h2>
           <p>SIRET : 199 411 117 000 13</p>
           <p>CODE UAI : 094 11 11 X</p>
           <p>N° déclaration activité : 11 94 P 000 794</p>
