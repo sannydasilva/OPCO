@@ -16,3 +16,7 @@
   justify-content: space-between;
   width: 30vw;
 }
+
+.card-title-home {
+  font-size: 1.6rem;
+}

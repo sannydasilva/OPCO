@@ -17,7 +17,7 @@
 
 .cnfptcontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .card2cnfpt {
@@ -31,4 +31,9 @@
   display: flex;
   margin: 30px;
   justify-content: space-between;
+}
+
+.cnfpt2-bg-base-100 {
+  --tw-bg-opacity: 1;
+  background-color: white;
 }

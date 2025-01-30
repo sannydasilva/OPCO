@@ -28,7 +28,7 @@ const Cnfpt = () => {
 
       {/* card 2 */}
       <div className="card2cnfpt">
-        <div className="card cnfpt-bg-base-100 w-96 shadow-xl">
+        <div className="card cnfpt2-bg-base-100 w-96 shadow-xl">
           {/* <figure>
             <a href="https://www.cnfpt.fr/" target="_blank">
               <img src={cnfptlogo} className="logocnfpt" alt="logo cnfpt" />

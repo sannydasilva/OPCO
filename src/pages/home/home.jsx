@@ -9,7 +9,7 @@ const Home = () => {
         style={{ backgroundColor: "#4a5f70" }}
       >
         <div className="card-body">
-          <h1 className="card-title">Informations CFA</h1>
+          <h1 className="card-title-home">Informations CFA</h1>
           <h2>Université Paris Est Créteil Val de Marne</h2>
           <h2>Adresse : 61, avenue Général de Gaulle 94010 CRETEIL</h2>
           <p>SIRET : 199 411 117 000 13</p>
@@ -25,13 +25,25 @@ const Home = () => {
             <p>Avenant : </p>
             <p>Rupture : </p> */}
         <div className="card-actions">
-          <button className="btn btn-neutral">Précis</button>
+          <a
+            href="/OPCO/precis-apprentissage.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">Précis</button>
+          </a>
         </div>
-        <div className="card-actions">
+        {/* <div className="card-actions">
           <button className="btn btn-neutral">RIB CFA</button>
-        </div>
+        </div> */}
         <div className="card-actions">
-          <button className="btn btn-neutral">Vademecum OPCO</button>
+          <a
+            href="/OPCO/vademecum.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">Vademecum OPCO</button>
+          </a>
         </div>
         <div className="card-actions">
           <button className="btn btn-neutral">TEST</button>
