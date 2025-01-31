@@ -4,7 +4,8 @@
   align-items: center;
   height: 70vh; /* Prend toute la hauteur de la fenêtre */
   margin: auto;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  flex-direction: column;
 }
 
 .card-body {
@@ -19,4 +20,13 @@
 
 .card-title-home {
   font-size: 1.6rem;
+}
+
+.drawer {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  margin-top: 50px;
+  justify-content: center;
 }

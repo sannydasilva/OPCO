@@ -18,13 +18,13 @@ const Home = () => {
           <p>Code organisme : 94287</p>
         </div>
       </div>
-      <div className="card-body-home">
-        {/* <p>Téléphone : </p>
+      {/* <div className="card-body-home"> */}
+      {/* <p>Téléphone : </p>
             <p>Mail :</p>
             <p>Prise en charge : </p>
             <p>Avenant : </p>
             <p>Rupture : </p> */}
-        <div className="card-actions">
+      {/* <div className="card-actions">
           <a
             href="/OPCO/precis-apprentissage.pdf"
             target="_blank"
@@ -32,11 +32,11 @@ const Home = () => {
           >
             <button className="btn btn-neutral">Précis</button>
           </a>
-        </div>
-        {/* <div className="card-actions">
+        </div> */}
+      {/* <div className="card-actions">
           <button className="btn btn-neutral">RIB CFA</button>
         </div> */}
-        <div className="card-actions">
+      {/* <div className="card-actions">
           <a
             href="/OPCO/vademecum.pdf"
             target="_blank"
@@ -46,7 +46,65 @@ const Home = () => {
           </a>
         </div>
         <div className="card-actions">
-          <button className="btn btn-neutral">TEST</button>
+          <a
+            href="/OPCO/grille-rem.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn btn-neutral">
+              Grille rémunération 01/11/2024
+            </button>
+          </a>
+        </div>
+      </div> */}
+      {/* TEST */}
+      <div className="drawer drawer-end">
+        <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content">
+          {/* Page content here */}
+          <label
+            htmlFor="my-drawer-4"
+            className="drawer-button btn btn-neutral"
+          >
+            Documents
+          </label>
+        </div>
+        <div className="drawer-side">
+          <label
+            htmlFor="my-drawer-4"
+            aria-label="close sidebar"
+            className="drawer-overlay"
+          ></label>
+          <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+            {/* Sidebar content here */}
+            <li>
+              <a
+                href="/OPCO/precis-apprentissage.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                PRECIS APPRENTISSAGE
+              </a>
+            </li>
+            <li>
+              <a
+                href="/OPCO/vademecum.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VADEMECUM OPCO
+              </a>
+            </li>
+            <li>
+              <a
+                href="/OPCO/grille-rem.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GRILLE REMUNERATION AU 01/11/2024
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -38,6 +38,7 @@ function App() {
           <Route path="/opcommerce" element={<Opcommerce />}></Route>
           <Route path="/uniformation" element={<Uniformation />}></Route>
           <Route path="/cnfpt" element={<Cnfpt />}></Route>
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>
