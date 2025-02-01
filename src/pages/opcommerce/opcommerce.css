@@ -1,16 +1,39 @@
-.logoopcommerce {
-  /* width: 70%; */
-  margin: 30px 10px;
-}
-
-.shadow-xl-opcommerce {
-  /* margin-top: 150px; */
+.shadow-xl-opcommercelogo {
+  margin: 70px auto;
+  background-color: #1d577c;
   width: 80%;
-  margin: 100px auto;
-  background-color: #678ca3;
 }
 
-.figureopcommerce {
-  width: 30%;
-  margin-top: 25px;
+img.logoopcommercelogo {
+  width: 60%;
+}
+
+.drawer-opcommercelogo {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.opcommercelogocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-opcommercelogo {
+  min-height: 50vh;
+}
+
+.w-96-akto {
+  width: 60rem;
+}
+
+.opcommercelogo-figure {
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 170px;
 }

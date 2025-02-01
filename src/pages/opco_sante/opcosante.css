@@ -1,15 +1,39 @@
-.logoopcosante {
-  /* width: 70%; */
-  margin: 30px 10px;
-}
-
-.shadow-xl-opcosante {
-  /* margin-top: 150px; */
+.shadow-xl-opcosantelogo {
+  margin: 70px auto;
+  background-color: #e9537d;
   width: 80%;
-  margin: 100px auto;
-  background-color: #e63064;
 }
 
-.figureopcosante {
-  width: 30%;
+img.logoopcosantelogo {
+  width: 60%;
+}
+
+.drawer-opcosantelogo {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.opcosantelogocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-opcosantelogo {
+  min-height: 50vh;
+}
+
+.w-96-akto {
+  width: 50rem;
+}
+
+.opcosantelogo-figure {
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 90px;
 }

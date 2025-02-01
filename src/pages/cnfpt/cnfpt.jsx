@@ -4,55 +4,44 @@ import "./cnfpt.css";
 
 const Cnfpt = () => {
   return (
-    <div className="cnfptcontainer">
-      {/* card 1 */}
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="card cnfpt-bg-base-100 w-96 shadow-xl">
-          <figure>
+    <div className="cnfptlogocontainer">
+      <div className="flex justify-center items-center min-h-screen-cnfptlogo">
+        <div className="card akto-bg-base-100 w-96-akto shadow-xl-cnfptlogo">
+          <figure className="cnfptlogo-figure">
             <a href="https://www.cnfpt.fr/" target="_blank">
-              <img src={cnfptlogo} className="logocnfpt" alt="logo cnfpt" />
+              <img
+                src={cnfptlogo}
+                className="logocnfptlogo"
+                alt="logo cnfptlogo"
+              />
             </a>
           </figure>
           <div className="card-body">
-            <p>Téléphone : </p>
-            <p>Mail :</p>
-            <p>Prise en charge : </p>
-            <p>Avenant : </p>
-            <p>Rupture : </p>
+            <p>
+              <strong>Téléphone : </strong>
+            </p>
+            <p>
+              <strong>Mail : </strong>
+            </p>
+            <p>
+              <strong>Prise en charge : </strong>
+            </p>
+            <p>
+              <strong>Avenant :</strong>
+            </p>
+            <p>
+              <strong>Rupture : </strong>
+            </p>
           </div>
         </div>
       </div>
-
-      {/* card 2 */}
-      {/* <div className="card2cnfpt">
-        <div className="card cnfpt2-bg-base-100 w-96 shadow-xl">
-
-          <div className="card-body-cnfpt">
-
-            <div className="card-actions">
-              <button className="btn btn-neutral">TEST</button>
-            </div>
-            <div className="card-actions">
-              <button className="btn btn-neutral">TEST</button>
-            </div>
-            <div className="card-actions">
-              <button className="btn btn-neutral">TEST</button>
-            </div>
-            <div className="card-actions">
-              <button className="btn btn-neutral">TEST</button>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* TEST */}
-      <div className="drawer drawer-end">
+      <div className="drawer-cnfptlogo drawer-end">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Page content here */}
           <label
             htmlFor="my-drawer-4"
-            className="drawer-button btn btn-primary"
+            className="drawer-button btn btn-neutral"
           >
             Documents
           </label>
@@ -66,10 +55,19 @@ const Cnfpt = () => {
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+              <a
+                href="/OPCO/Contacts-Constryctys-IDF.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Doc 1
+              </a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <a>Doc 2</a>
+            </li>
+            <li>
+              <a>Doc 3</a>
             </li>
           </ul>
         </div>

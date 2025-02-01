@@ -73,29 +73,6 @@ const opcomobilites = () => {
         </div>
       </div>
     </div>
-    // <div>
-    //   <div className="card card-side bg-neutral shadow-xl-opcomobilite w-1/2">
-    //     <figure className="figureopcomobilite">
-    //       <a href="https://www.opcomobilites.fr/" target="_blank">
-    //         <img
-    //           src={opcomobilitelogo}
-    //           className="logoopcomobilite"
-    //           alt="logo opcomobilite"
-    //         />
-    //       </a>
-    //     </figure>
-    //     <div className="card-body">
-    //       <p>Téléphone : </p>
-    //       <p>Mail :</p>
-    //       <p>Prise en charge : </p>
-    //       <p>Avenant : </p>
-    //       <p>Rupture : </p>
-    //       <div className="card-actions justify-end">
-    //         <button className="btn btn-neutral">TEST</button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 

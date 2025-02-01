@@ -1,39 +1,35 @@
-.min-h-screen {
-  min-height: 80vh;
-}
-/* cnfpt .bg-base-100 {
-  --tw-bg-opacity: 1;
-  background-color: oklch(0.29 0.19 265.37);
-} */
-
-.w-96 {
-  width: 36rem;
+.shadow-xl-cnfptlogo {
+  margin: 70px auto;
+  background-color: #050088;
+  width: 80%;
 }
 
-.cnfpt-bg-base-100 {
-  --tw-bg-opacity: 1;
-  background-color: oklch(0.29 0.19 265.37);
-}
-
-.cnfptcontainer {
+.drawer-cnfptlogo {
+  position: relative;
   display: flex;
-  justify-content: space-evenly;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
 }
 
-.card2cnfpt {
+.cnfptlogocontainer {
   display: flex;
-  /* height: 80vh; */
   justify-content: center;
   align-items: center;
+
+  flex-direction: column;
 }
 
-.card-body-cnfpt {
-  display: flex;
-  margin: 30px;
-  justify-content: space-between;
+.min-h-screen-cnfptlogo {
+  min-height: 50vh;
 }
 
-.cnfpt2-bg-base-100 {
-  --tw-bg-opacity: 1;
-  background-color: white;
+.w-96-akto {
+  width: 60rem;
+}
+
+.cnfptlogo-figure {
+  height: 30%;
+  margin-top: 10px;
+  margin-right: 30px;
 }
