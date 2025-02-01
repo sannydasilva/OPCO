@@ -1,11 +1,54 @@
-.shadow-xl-constructys {
-  /* margin-top: 150px; */
+/* .shadow-xl-constructys {
+  margin-top: 150px;
   width: 80%;
   margin: 150px auto;
   background-color: #c45b2d;
-}
+} */
 
-.logoconstructys {
+/* .logoconstructys {
   margin-top: 50px;
   margin-left: 15px;
+} */
+
+.shadow-xl-constructys {
+  width: 80%;
+  margin: 70px auto;
+  background-color: #c0542c;
+  height: 50vh;
+}
+
+img.logoconstructys {
+  margin: auto;
+
+  width: 60%;
+}
+
+.drawer-constructys {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.constructyscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-constructys {
+  min-height: 50vh;
+}
+
+.w-96-constructys {
+  width: 50rem;
+}
+
+.constructys-figure {
+  height: 30%;
+  margin-top: 20px;
+  margin-right: 30px;
 }

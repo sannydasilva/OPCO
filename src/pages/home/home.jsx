@@ -3,7 +3,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container-home">
       <div
         className="card bg-primary text-primary-content w-1/2"
         style={{ backgroundColor: "#4a5f70" }}
@@ -18,46 +18,7 @@ const Home = () => {
           <p>Code organisme : 94287</p>
         </div>
       </div>
-      {/* <div className="card-body-home"> */}
-      {/* <p>Téléphone : </p>
-            <p>Mail :</p>
-            <p>Prise en charge : </p>
-            <p>Avenant : </p>
-            <p>Rupture : </p> */}
-      {/* <div className="card-actions">
-          <a
-            href="/OPCO/precis-apprentissage.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="btn btn-neutral">Précis</button>
-          </a>
-        </div> */}
-      {/* <div className="card-actions">
-          <button className="btn btn-neutral">RIB CFA</button>
-        </div> */}
-      {/* <div className="card-actions">
-          <a
-            href="/OPCO/vademecum.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="btn btn-neutral">Vademecum OPCO</button>
-          </a>
-        </div>
-        <div className="card-actions">
-          <a
-            href="/OPCO/grille-rem.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="btn btn-neutral">
-              Grille rémunération 01/11/2024
-            </button>
-          </a>
-        </div>
-      </div> */}
-      {/* TEST */}
+
       <div className="drawer drawer-end">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
@@ -83,7 +44,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                PRECIS APPRENTISSAGE
+                -PRECIS APPRENTISSAGE
               </a>
             </li>
             <li>
@@ -92,7 +53,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                VADEMECUM OPCO
+                -VADEMECUM OPCO
               </a>
             </li>
             <li>
@@ -101,7 +62,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GRILLE REMUNERATION AU 01/11/2024
+                -GRILLE REMUNERATION AU 01/11/2024
               </a>
             </li>
           </ul>

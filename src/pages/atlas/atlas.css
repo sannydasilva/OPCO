@@ -1,10 +1,39 @@
 .shadow-xl-atlas {
-  /* margin-top: 150px; */
   width: 80%;
-  margin: 150px auto;
+  margin: 70px auto;
   background-color: #320268;
+  height: 50vh;
 }
 
-/* .logoafdas {
-    margin-top: 15px;
-  } */
+img.logoatlas {
+  margin: auto;
+  width: 60%;
+}
+
+.drawer-atlas {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.atlascontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-atlas {
+  min-height: 50vh;
+}
+
+.w-96-atlas {
+  width: 50rem;
+}
+
+.atlas-figure {
+  height: 30%;
+}
