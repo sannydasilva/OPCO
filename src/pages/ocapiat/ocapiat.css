@@ -1,11 +1,40 @@
-.logoocapiat {
-  width: 70%;
-  margin: 20px;
+.shadow-xl-ocapiat {
+  margin: 70px auto;
+  background-color: #372872;
+  height: 50vh;
 }
 
-.shadow-xl-ocapiat {
-  /* margin-top: 150px; */
-  width: 80%;
-  margin: 150px auto;
-  background-color: #372872;
+img.logoocapiat {
+  margin: auto;
+  width: 60%;
+}
+
+.drawer-ocapiat {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.ocapiatcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-ocapiat {
+  min-height: 50vh;
+}
+
+.w-96-akto {
+  width: 50rem;
+}
+
+.ocapiat-figure {
+  height: 30%;
+  margin-top: 20px;
+  margin-right: 30px;
 }

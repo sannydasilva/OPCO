@@ -1,10 +1,8 @@
-.logoopcomobilite {
-  /* width: 70%; */
+/* .logoopcomobilite {
   margin: 30px 10px;
 }
 
 .shadow-xl-opcomobilite {
-  /* margin-top: 150px; */
   width: 80%;
   margin: 100px auto;
   background-color: #1fa68a;
@@ -12,4 +10,44 @@
 
 .figureopcomobilite {
   width: 30%;
+} */
+.shadow-xl-opcomobilitelogo {
+  margin: 70px auto;
+  background-color: #19a48f;
+  width: 80%;
+}
+
+img.logoopcomobilitelogo {
+  /* margin: 20%; */
+  width: 60%;
+}
+
+.drawer-opcomobilitelogo {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.opcomobilitelogocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-opcomobilitelogo {
+  min-height: 50vh;
+}
+
+.w-96-akto {
+  width: 50rem;
+}
+
+.opcomobilitelogo-figure {
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 150px;
 }

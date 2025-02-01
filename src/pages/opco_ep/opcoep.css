@@ -1,15 +1,40 @@
-.logoopcoep {
-  /* width: 60%; */
-  margin: 30px 10px;
-}
-
 .shadow-xl-opcoep {
-  /* margin-top: 150px; */
-  width: 80%;
-  margin: 100px auto;
+  margin: 70px auto;
   background-color: #008984;
+  width: 80%;
 }
 
-.figureopcoep {
-  width: 40%;
+img.logoopcoep {
+  /* margin: 20%; */
+  width: 60%;
+}
+
+.drawer-opcoep {
+  position: relative;
+  display: flex;
+  grid-auto-columns: max-content auto;
+  width: 10%;
+  justify-content: center;
+}
+
+.opcoepcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.min-h-screen-opcoep {
+  min-height: 50vh;
+}
+
+.w-96-akto {
+  width: 50rem;
+}
+
+.opcoep-figure {
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 150px;
 }
