@@ -65,6 +65,15 @@ const Home = () => {
                 -GRILLE REMUNERATION AU 01/11/2024
               </a>
             </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1kHQcCUDx6F-lykN_Z1xD2Vf6yqX3vOpq"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                -RIB CFA
+              </a>
+            </li>
           </ul>
         </div>
       </div>

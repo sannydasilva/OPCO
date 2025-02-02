@@ -56,11 +56,11 @@ const opcosante = () => {
             {/* Sidebar content here */}
             <li>
               <a
-                href="/OPCO/Contacts-Constryctys-IDF.pdf"
+                href="/OPCO/opcosante-mode-emploi.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Doc 1
+                Mode d'emploi plateforme
               </a>
             </li>
             <li>

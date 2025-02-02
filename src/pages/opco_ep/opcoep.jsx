@@ -52,18 +52,48 @@ const opcoep = () => {
             {/* Sidebar content here */}
             <li>
               <a
-                href="/OPCO/Contacts-Constryctys-IDF.pdf"
+                href="/OPCO/opcoep-creer-compte.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Doc 1
+                Créer un compte
               </a>
             </li>
             <li>
-              <a>Doc 2</a>
+              <a
+                href="/OPCO/opcoep-navigation.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Navigation
+              </a>
             </li>
             <li>
-              <a>Doc 3</a>
+              <a
+                href="/OPCO/opcoep-saisie-contrat.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Saisir un contrat
+              </a>
+            </li>
+            <li>
+              <a
+                href="/OPCO/opcoep-gestion-contrats.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gestion d'un contrat
+              </a>
+            </li>
+            <li>
+              <a
+                href="/OPCO/opcoep-demande-paiement.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demande de paiement
+              </a>
             </li>
           </ul>
         </div>
