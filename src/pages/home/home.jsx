@@ -67,7 +67,7 @@ const Home = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1kHQcCUDx6F-lykN_Z1xD2Vf6yqX3vOpq"
+                href="https://drive.google.com/file/d/1kHQcCUDx6F-lykN_Z1xD2Vf6yqX3vOpq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
