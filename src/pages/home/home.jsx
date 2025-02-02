@@ -67,7 +67,7 @@ const Home = () => {
             </li>
             <li>
               <a
-                href="https://www.dropbox.com/scl/fi/foba7603epfgne53h6aqd/RIB_a_utiliser_FA.pdf?rlkey=vip1dg7i6x4t8c60vav7m6o6q&st=mz43ja5k&dl=0"
+                href="https://drive.google.com/file/d/1kHQcCUDx6F-lykN_Z1xD2Vf6yqX3vOpq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
